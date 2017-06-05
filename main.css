@@ -1,0 +1,91 @@
+ /***********************************
+  BODY
+  **********************************/
+
+body {
+    background-color: #f2f2f2;
+     font-family: Trebuchet MS;
+ 
+}
+
+h1{
+     color:#fff;
+}
+
+  /***********************************
+  NAVIGATION
+  **********************************/
+    nav {
+    background: #3372d2;
+    width: 100%;
+    margin: 0px;
+ }
+ 
+ nav ul {
+    height: 75px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+    overflow: hidden;
+    background-color: #202020;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ nav li {
+    float: left;
+}
+
+ nav li a {
+    display: block;
+    color:#fff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ nav li a:hover:not(.active) {
+  
+    border-bottom: solid;
+    border-bottom-color: white;
+   
+}
+
+.active {
+    background-color: #4CAF50;
+}
+ nav a{
+    font-family: Trebuchet MS;
+    margin-top: 15%;
+}
+
+#logo {
+    width: 165.2px;
+    length 50px;
+    margin-top: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 300px;
+}
+
+  /***********************************
+    LAND
+  **********************************/
+
+#scape {
+  
+}
+
+
+  /***********************************
+    CONTACT
+  **********************************/
